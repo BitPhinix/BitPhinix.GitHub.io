@@ -2,9 +2,11 @@ $('.navbar-brand').click(function() {
     $('html, body').stop().animate({
         scrollTop: 0
     }, 800);
+
+    $("#navbarSupportedContent").removeClass("show");
 });
 
-$("header a").click(function(e) {
+$("header a[href^='#']").click(function(e) {
     if (this.hasAttribute("external"))
         return;
 
