@@ -12,6 +12,7 @@ This website was created in 4 days and isn´t commentet very well. The source co
 * [Material Design for Bootstrap 4](https://mdbootstrap.com/)
 * [jQuery v3.2.1](https://jquery.com/)
 * [Font Awesome 4.7.0](http://fontawesome.io/)
+* [timeline-responsive](https://bootsnipp.com/snippets/featured/timeline-responsive) (heavily modified)
 
 # License
 
