@@ -5,7 +5,7 @@ $('.navbar-brand').click(function() {
 });
 
 $("header a").click(function(e) {
-    if ($(this).hasAttribute("external"))
+    if (this.hasAttribute("external"))
         return;
 
     e.preventDefault();
