@@ -10,7 +10,7 @@
     position: absolute;
     content: " ";
     width: 3px;
-    background-color: #eeeeee;
+    background-color: #fefefe;
     left: 50%;
     margin-left: -1.5px;
 }
@@ -41,7 +41,7 @@
 }
 
 .timeline > li > .timeline-panel {
-    background-color: white;
+    background-color: #fefefe;
     width: 46%;
     float: left;
     border: 1px solid #d4d4d4;
@@ -70,14 +70,14 @@
     right: -14px;
     display: inline-block;
     border-top: 14px solid transparent;
-    border-left: 14px solid #fff;
-    border-right: 0 solid #fff;
+    border-left: 14px solid #fefefe;
+    border-right: 0 solid #fefefe;
     border-bottom: 14px solid transparent;
     content: " ";
 }
 
 .timeline > li > .timeline-badge {
-    color: #fff;
+    color: #fefefe;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -168,6 +168,10 @@
 }
 
 @media (max-width: 400px) {
+    ul.timeline:before {
+        left: 35px;
+    }
+
     .timeline {
         text-align: center;
     }
