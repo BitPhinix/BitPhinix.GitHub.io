@@ -18,6 +18,7 @@ header {
 
 #skills ul {
     list-style: none;
+    padding: 0 !important;
 }
 
 #skills li {
