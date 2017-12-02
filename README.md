@@ -4,7 +4,7 @@ Feel free to copy my page and use it as a template for your own resume website !
 
 # Disclaimer
 
-This website was created in 4 days and isn´t commentet very well. The source code should be fairly readable since it is only a few lines of js and the rest is html / css.
+This website was created in 4 days and isn´t commentet very well. The source code should be fairly readable since it is only a few lines of js and everything else is html / css.
 
 #  Stuff used
 
