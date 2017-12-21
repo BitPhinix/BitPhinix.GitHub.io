@@ -29,6 +29,11 @@ header {
     padding: 5px 10px;
 }
 
+.fullWidth {
+    min-width: 100%;
+    height: auto;
+}
+
 section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -50,7 +55,7 @@ section.dark {
     margin-left: auto;
 }
 
-@media (max-height: 1000px) {
+@media (max-height: 800px), (max-width: 500px){
     #hero h2{
         font-size: 45px;
     }
